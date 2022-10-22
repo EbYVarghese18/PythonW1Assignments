@@ -1,0 +1,6 @@
+print("Enter the marks scored by the students: ")
+written_Mark = float(input("Written test: "))
+lab_Mark = float(input("Lab Exams: "))
+assignment_Mark = float(input("Assignments: "))
+weightedAverage = (written_Mark * 70 / 100) + (lab_Mark * 20 / 100) + (assignment_Mark*10 / 100)
+print("Grade of the Student is :  " + str(weightedAverage))
